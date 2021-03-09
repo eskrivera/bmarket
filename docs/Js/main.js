@@ -47,3 +47,14 @@ const menunav = document.querySelector('.menu-navegacion');
         }
 
     })
+
+
+        
+//loader
+
+window.onload = function(){
+    var theLoader = document.getElementById('loader');
+
+    theLoader.style.visibility = 'hidden';
+    theLoader.style.opacity = '0';
+}
